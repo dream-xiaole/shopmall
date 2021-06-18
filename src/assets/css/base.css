@@ -1,0 +1,23 @@
+@import url(./normalize.css);
+
+/*
+  :root 代表根  相当于html 
+  --color-text  定义的变量  字体颜色
+  --color-high-text   高亮
+  --color-high-text   高亮
+*/
+:root {
+  --color-text: #666;
+  --color-high-text: #ff5777;
+  --color-tint: #ff8198;
+  --color-background: #fff;
+  --font-size: 14px;
+  --line-height: 1.5;
+}
+
+*,
+*::before,
+*::after{
+  margin: 0;
+  padding: 0;
+}
